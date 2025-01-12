@@ -1,0 +1,218 @@
+.grey-custom-table tr:hover {
+    background-color: #fff;
+}
+
+
+
+.editTarget-table-container {
+    min-width: 550px;
+    overflow-x: auto;
+}
+
+.editTarget-table-container::-webkit-scrollbar {
+    width: 8px;
+    height: 6px;
+}
+
+.editTarget-table-container::-webkit-scrollbar {
+    display: initial;
+}
+
+.editTarget-table-container::-webkit-scrollbar-thumb {
+    background-color: rgb(173, 173, 173);
+    border-radius: 30px;
+}
+
+.editTarget-table-container::-webkit-scrollbar-button {
+    display: initial;
+}
+
+.editTarget-table-container::-webkit-scrollbar {
+    -ms-overflow-style: initial;
+    scrollbar-width: thin;
+}
+
+.editTarget-table-container::-webkit-scrollbar-corner {
+    background-color: transparent;
+}
+
+.grey-table-main-container h3 {
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+.editTarget-custom-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.editTarget-custom-table table tbody tr td {
+    min-width: 20px;
+}
+
+.editTarget-custom-table th,
+.editTarget-custom-table td {
+    padding: 8px 8px;
+    text-align: center;
+    border-bottom: 1px solid #e7e7e7;
+    border-right: 1px solid #e7e7e7;
+    color: #3E3E3E !important;
+    font-size: 12px;
+    font-weight: 500;
+    background-color: #fff;
+}
+
+.editTarget-custom-table .viraj {
+    color: #B0B0B0 !important;
+}
+
+
+
+.editTarget-custom-table th {
+    background-color: #d0d0d0;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.editTarget-custom-table tr:nth-child(even) {
+    background-color: #ffffff;
+}
+
+.editTarget-custom-table tr:hover {
+    background-color: #ffffff;
+}
+
+.editTarget-custom-table tfoot th {
+    background-color: #F5F5F5;
+    border-bottom: none;
+    font-weight: 500;
+    font-size: 12px;
+    white-space: nowrap;
+}
+
+
+.editTarget-custom-table .pastmonth tr {
+    background-color: #f0f0f0;
+    color: #888;
+    cursor: not-allowed;
+}
+
+.table-main {
+    border-radius: 10px;
+    margin-top: 18px;
+    margin-bottom: 24px;
+    border: 1px solid #f0f0f0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 14px 6px;
+}
+
+.editTarget-custom-table table {
+    width: 100%;
+    background-color: #fff;
+    border-collapse: collapse;
+    position: relative;
+    /* border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem; */
+}
+
+.editTarget-custom-table table tbody {
+    width: 100%;
+}
+
+.editTarget-custom-table table thead tr {
+    background-color: #d5e4ff;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.editTarget-custom-table table thead tr th {
+    text-align: left;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 0.8rem 1rem 0.8rem 1rem;
+    /* line-height: 18px; */
+}
+
+.table-header {
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+    cursor: pointer;
+}
+
+.table-header p {
+    color: #3E3E3E;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.editTarget-custom-table table tbody tr {
+    border-bottom: 1px solid #d5e4ff;
+}
+
+.editTarget-custom-table table tbody tr:hover {
+    transition: 0.4s all linear;
+    background-color: #66708520;
+}
+
+.editTarget-custom-table table tbody tr td {
+    padding: 0.8rem 1rem 0.8rem 1rem;
+    font-size: 12px;
+    width: auto;
+    color: #d5e4ff !important;
+}
+
+.actions-div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    align-items: center;
+}
+
+.actions-div .MdEdit .MdDelete {
+    cursor: pointer;
+    transition: color 0.3s ease, transform 0.2s ease;
+    color: #555;
+}
+
+.actions-div .MdEdit .MdDelete:hover {
+    color: #007bff;
+    transform: scale(1.1);
+}
+
+@media screen and (max-width: 767px) {
+    .editTarget-table-container {
+        min-width: 325px;
+        overflow-x: auto;
+    }
+
+    .editTarget-table-container::-webkit-scrollbar {
+        width: 8px;
+        height: 6px;
+    }
+
+    .editTarget-table-container::-webkit-scrollbar {
+        display: initial;
+    }
+
+    .editTarget-table-container::-webkit-scrollbar-thumb {
+        background-color: rgb(173, 173, 173);
+        border-radius: 30px;
+    }
+
+    .editTarget-table-container::-webkit-scrollbar-button {
+        display: initial;
+    }
+
+    .editTarget-table-container::-webkit-scrollbar {
+        -ms-overflow-style: initial;
+        scrollbar-width: thin;
+    }
+
+    .editTarget-table-container::-webkit-scrollbar-corner {
+        background-color: transparent;
+    }
+}
